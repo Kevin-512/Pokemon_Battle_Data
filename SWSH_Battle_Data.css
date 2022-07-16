@@ -1,0 +1,14 @@
+html,body,header{
+    margin: 0;
+    padding: 0;    
+}
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+.header-image {
+    background-image: url("SWSH_Pokemon_Data_Images/Sword_Shield_Title.png");
+}
