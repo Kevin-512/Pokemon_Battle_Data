@@ -3,12 +3,41 @@ html,body,header{
     padding: 0;    
 }
 header {
-    background-color: #666;
-    padding: 30px;
+    background-color: #fff200;
+    padding: 50px;
     text-align: center;
-    font-size: 35px;
-    color: white;
   }
-.header-image {
-    background-image: url("SWSH_Pokemon_Data_Images/Sword_Shield_Title.png");
+.top-nav {
+    background-color: #00bff3;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    margin-left: -50px;
+}
+.top-nav li {
+    list-style-type: none;
+    display: inline;
+}
+.top-nav li a{
+    padding: 20px;
+    outline: none;
+    text-decoration: none;
+}
+.top-nav li:hover {
+    background-color: #7accc8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top-nav-left {
+    float: left;
+}
+.top-nav-right {
+    float: right;
+    margin-right: +30px;
+}
+.title-img {
+    margin-top: +50px;
 }
